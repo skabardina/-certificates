@@ -1,0 +1,31 @@
+Заказ справки
+
+@startuml
+
+left to right direction
+
+actor "Сотрудник компании" as Employee
+actor "Сотрудник бухгалтерии и HR-отдела" as Accountant
+
+
+usecase "Заказать справку" as UC1
+usecase "Просмотреть доступные справки" as UC2
+usecase "Обработать запрос на справку" as UC3
+usecase "Согласовать автоматически сгенерированную справку" as UC4
+usecase "Загрузить вручную сформированную справку" as UC5
+usecase "Получить справку в ЛК" as UC6
+usecase "Оповестить о некорректном запросе" as UC7
+usecase "Отменить заявку" as UC8
+
+
+Employee -down-> UC1
+UC1 <..  UC2 : include
+Employee -down-> UC6
+Employee -down-> UC8
+
+Accountant -down-> UC3
+UC3 <..  UC5 : include
+UC3 <..  UC4 : include
+UC3 <..  UC7 : include
+
+@enduml
