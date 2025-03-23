@@ -4,7 +4,7 @@
 
 <h3>Заказ справок в ЛК</h3>
 
-![Диаграмма прецедентов](https://github.com/skabardina/certificates/blob/main/use%20case%20заказ%20справки.png)
+![Диаграмма прецедентов](https://github.com/skabardina/-certificates/blob/main/use%20case%20заказ%20справки.png)
 
 |Заголовок | Процесс| 
 |-|-|
@@ -30,7 +30,7 @@
 
 <h3>Скачать готовую справку</h3>
 
-![Диаграмма прецедентов] (-certificates/use case скачать спарвку.png)
+![Диаграмма прецедентов](https://github.com/skabardina/-certificates/blob/main/use%20case%20скачать%20спарвку.png)
 |Заголовок | Процесс| 
 |-|-|
 | Участники| сотрудник компании <br/> корпоративнй портал (КП)| 
