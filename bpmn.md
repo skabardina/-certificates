@@ -2,4 +2,4 @@
 
 Представлен диаграмма процесс заказа справок
 
-![image](https://stormbpmn.com/app/diagram/6a035e3e-832d-4e93-a6ff-819903fab6bd)
+![image](https://github.com/skabardina/-certificates/blob/main/BPMN%20справки.png)
